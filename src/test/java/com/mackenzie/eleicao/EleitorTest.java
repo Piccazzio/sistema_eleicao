@@ -3,6 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
+
 package com.mackenzie.eleicao;
 
 import org.junit.jupiter.api.Test;
@@ -21,7 +24,7 @@ public class EleitorTest {
 
     @Test
     public void testMtClasssificarEleitorInvalido() {
-        System.out.println("Teste da classe Idade Invalida");
+        System.out.println("Rodando teste da classe Idade Invalida - Commit de Pipeline");
         assertEquals("Idade Invalida", objEleitor.mtClasssificarEleitor(-1));
         assertEquals("Idade Invalida", objEleitor.mtClasssificarEleitor(131));
     }
