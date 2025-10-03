@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.mackenzie:eleicao >------------------------
+[INFO] Building eleicao 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eleicao ---
+[INFO] skip non existing resourceDirectory /workspaces/sistema_eleicao/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ eleicao ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 11] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eleicao ---
+[INFO] skip non existing resourceDirectory /workspaces/sistema_eleicao/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ eleicao ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug target 11] to target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.0:test (default-test) @ eleicao ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mackenzie.eleicao.EleitorTest
+Teste da classe Facultativo
+Teste da classe Nao Permitido
+Rodando teste da classe Idade Invalida - Commit de Pipeline
+Teste da classe Obrigatorio
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in com.mackenzie.eleicao.EleitorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.240 s
+[INFO] Finished at: 2025-10-03T23:00:59Z
+[INFO] ------------------------------------------------------------------------
