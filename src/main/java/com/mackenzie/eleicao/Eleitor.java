@@ -5,7 +5,8 @@
  */
 //testando com a turma 6N
 //testando com a turma 6P antes de sextar
-// Projeto de exemplo para CI/CD - commit de teste VECTEC
+
+// Projeto de exemplo para CI/CD - commit de teste VECTEC - Parte 02
 
 package com.mackenzie.eleicao;
 
