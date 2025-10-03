@@ -26,6 +26,7 @@ public class EleitorTest {
     public void testMtClasssificarEleitorInvalido() {
         System.out.println("Rodando teste da classe Idade Invalida - Commit de Pipeline");
         System.out.println("Teste 02 - Commit de Pipeline");
+        System.out.println("Teste Gravação...");
         assertEquals("Idade Invalida", objEleitor.mtClasssificarEleitor(-1));
         assertEquals("Idade Invalida", objEleitor.mtClasssificarEleitor(131));
     }
